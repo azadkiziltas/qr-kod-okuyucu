@@ -18,7 +18,7 @@ class qrOlusturDurum extends State<qrOlustur> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 51, 102, 102),
-        title: Text('QR Oluşturucu'),
+        title: Text('QR Kod Oluşturucu'),
         actions: <Widget>[],
       ),
       body: Container(
@@ -28,7 +28,7 @@ class qrOlusturDurum extends State<qrOlustur> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "QR Oluşturucu",
+              "QR Kod Oluşturucu",
               style: TextStyle(fontSize: 20.0),
             ),
             TextField(
@@ -54,7 +54,7 @@ class qrOlusturDurum extends State<qrOlustur> {
                   }
                 },
                 child: Text(
-                  "QR Oluştur",
+                  "QR Kod Oluştur",
                   style: TextStyle(
                       color: Color.fromARGB(255, 51, 102, 102),
                       fontWeight: FontWeight.bold),

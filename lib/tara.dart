@@ -15,7 +15,7 @@ class _TaraDurum extends State<Tara> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 51, 102, 102),
-        title: Text("QR Code Okuyucu"),
+        title: Text("QR Kod Okuyucu"),
         centerTitle: true,
       ),
       body: Container(

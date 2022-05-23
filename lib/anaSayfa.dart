@@ -25,11 +25,11 @@ class _AnaSayfaDurum extends State<AnaSayfa> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Image(image: AssetImage('assets/logo.png')),
-            flatButton("QR CODE TARA", Tara()),
+            flatButton("QR KOD TARA", Tara()),
             SizedBox(
               height: 10.0,
             ),
-            flatButton("QR CODE OLUŞTUR", qrOlustur()),
+            flatButton("QR KOD OLUŞTUR", qrOlustur()),
           ],
         ),
       ),
