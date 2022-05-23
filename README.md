@@ -1,6 +1,6 @@
 # qr_app
 
-A new project.
+A new flutter project.
 
 ## Getting Started
 
