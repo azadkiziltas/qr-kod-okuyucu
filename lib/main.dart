@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'anaekran.dart';
+import 'anaSayfa.dart';
 
 void main() {
   runApp(MaterialApp(
