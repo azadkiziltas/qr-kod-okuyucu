@@ -13,7 +13,7 @@ class _AnaSayfaDurum extends State<AnaSayfa> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 51, 102, 102),
-        title: Text("Ana Ekran"),
+        title: Text("Ana Sayfa"),
         centerTitle: true,
       ),
       body: Container(
